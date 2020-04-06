@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sy.blog.mapper.BlogUserMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.sy.blog.beans.BlogUser">
+		<id column="id" property="id" />
+		<result column="user_id" property="userId" />
+		<result column="nick_name" property="nickName" />
+		<result column="user_name" property="userName" />
+		<result column="password" property="password" />
+		<result column="user_info_id" property="userInfoId" />
+		<result column="head_Image" property="headImage" />
+		<result column="power" property="power" />
+		<result column="create_time" property="createTime" />
+		<result column="up_time" property="upTime" />
+		<result column="status" property="status" />
+		<result column="remark" property="remark" />
+	</resultMap>
+
+</mapper>
